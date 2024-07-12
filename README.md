@@ -1,0 +1,2 @@
+# .github
+Fog Security
