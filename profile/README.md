@@ -31,4 +31,4 @@ Repository: https://github.com/FogSecurity/aws-managed-kms-keys
 Currently, this repository covers how to update encryption for existing AWS resources.  This is helpful to help prevent against ransomware, as a cloud ransomware technique is to hold data hostage by changing encryption keys.  This also aids in teams who need to update or manage encryption for existing AWS resources.  This repository details the IAM actions required to update encryption for cloud resources that support encryption update and details which cloud resources do not support updating in place and thus need to be recreated.
 
 Read more in our blog post here: https://www.fogsecurity.io/blog/updating-encryption-aws-resources-ransonware \
-Repository: https://github.com/FogSecurity/aws-kms-encryption-iam/blob/main/README.md
+Repository: https://github.com/FogSecurity/aws-kms-encryption-iam
