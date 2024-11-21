@@ -38,4 +38,5 @@ This is helpful to help prevent against ransomware, as a cloud ransomware techni
 Read more in our blog posts here: 
 * https://www.fogsecurity.io/blog/updating-encryption-aws-resources-ransonware 
 * https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms \
+
 Repository: [https://github.com/FogSecurity/aws-data-perimeter-iam](https://github.com/FogSecurity/aws-data-perimeter-iam)
