@@ -8,9 +8,9 @@ Check out our resources:
 - Fog Security Technical Blog: https://www.fogsecurity.io/blog/
 - Contact: info@fogsecurity.io
 
-## Encryption in AWS Tooling
+## Encryption and Data Perimeters in AWS Tooling
 
-We've created the following resources to help with understanding encryption and improving cloud security.
+We've created the following resources to help with understanding encryption and improving cloud security by building data perimeters.
 
 ### AWS Default Encryption Tracker
 
