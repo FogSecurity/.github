@@ -19,13 +19,13 @@ This repository tracks default encryption settings across AWS resources.  In our
 Read more in our blog post here: https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default \
 Repository: https://github.com/FogSecurity/aws-default-encryption-tracker
 
-### AWS Managed Keys Tracker
+### Finders Keypers (AWS KMS Key Usage Finder)
 
-This tool checks which AWS Services support AWS Managed Keys, a type of KMS Encryption Key where the encryption key is managed by AWS, but exists only within the customer AWS Account.  Additionally, the tool pulls the managed key policies and uploads them to a repository for reference.
+This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
 
-Read more in our blog post here: https://www.fogsecurity.io/blog/encryption-aws-managed-kms-keys \
-Repository: https://github.com/FogSecurity/aws-managed-kms-keys
- 
+Read more in our blog post here: https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws \
+Repository: https://github.com/FogSecurity/finders-keypers
+
 ### IAM References for AWS Data Perimeters
 
 This repository contains multiple IAM references including:
@@ -40,3 +40,11 @@ Read more in our blog posts here:
 * https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms 
 
 Repository: [https://github.com/FogSecurity/aws-data-perimeter-iam](https://github.com/FogSecurity/aws-data-perimeter-iam)
+
+### AWS Managed Keys Tracker
+
+This tool checks which AWS Services support AWS Managed Keys, a type of KMS Encryption Key where the encryption key is managed by AWS, but exists only within the customer AWS Account.  Additionally, the tool pulls the managed key policies and uploads them to a repository for reference.
+
+Read more in our blog post here: https://www.fogsecurity.io/blog/encryption-aws-managed-kms-keys \
+Repository: https://github.com/FogSecurity/aws-managed-kms-keys
+
