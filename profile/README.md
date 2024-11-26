@@ -1,6 +1,6 @@
 # Fog Security
 
-Welcome to Fog Security, where we're working to bring clarity to cloud data security.
+Welcome to Fog Security, where we're working to bring clarity to cloud encryption and build better data perimeters.
 
 Check out our resources:
 
