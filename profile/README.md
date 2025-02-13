@@ -19,6 +19,14 @@ This repository tracks default encryption settings across AWS resources.  In our
 Read more in our blog post here: https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default \
 Repository: https://github.com/FogSecurity/aws-default-encryption-tracker
 
+### AWS IAM Tagging
+
+This repository contains listings of:
+* All 1000+ IAM Actions to tag resources in AWS
+* Listing of 1400+ AWS Resources that support tagging.
+
+Repository: https://github.com/FogSecurity/aws-iam-tagging
+
 ### Finders Keypers (AWS KMS Key Usage Finder)
 
 This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
