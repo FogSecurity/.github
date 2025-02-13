@@ -37,6 +37,10 @@ Repository: https://github.com/FogSecurity/finders-keypers
 ### IAM References for AWS Data Perimeters
 
 This repository contains multiple IAM references including:
+
+#### Resources to Prevent Ransomware in Amazon S3 and KMS
+These reference policies (including SCPs, RCPs, Bucket Policies, and more) help with preventing ransomware in Amazon S3 and KMS.  These include policies to prevent against data access, data deletion, and data corruption (such as encryption with SSE-C, customer-provided encryption)
+
 #### Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS
 These reference policies help with creating data perimeters and improving cloud security within your AWS Organization at scale.  These policies protect resources and can also limit potential actions taken by IAM principals within your AWS Organization and AWS accounts within.
   
@@ -45,7 +49,8 @@ This is helpful to help prevent against ransomware, as a cloud ransomware techni
 
 Read more in our blog posts here: 
 * https://www.fogsecurity.io/blog/updating-encryption-aws-resources-ransonware 
-* https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms 
+* https://www.fogsecurity.io/blog/data-perimeters-with-resource-control-policies-and-aws-kms
+* https://www.fogsecurity.io/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms
 
 Repository: [https://github.com/FogSecurity/aws-data-perimeter-iam](https://github.com/FogSecurity/aws-data-perimeter-iam)
 
