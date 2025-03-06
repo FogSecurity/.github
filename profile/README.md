@@ -12,6 +12,14 @@ Check out our resources:
 
 We've created the following resources to help with understanding encryption and improving cloud security by building data perimeters.
 
+### Finders Keypers (AWS KMS Key Usage Finder)
+
+This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
+
+Read more in our blog post here: https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws \
+Repository: https://github.com/FogSecurity/finders-keypers
+
+
 ### AWS Default Encryption Tracker
 
 This repository tracks default encryption settings across AWS resources.  In our research of 50+ resources across 40+ AWS services, resources were found to either be unencrypted, default encrypted with AWS owned keys, or default encrypted with AWS managed keys.  
@@ -26,13 +34,6 @@ This repository contains listings of:
 * Listing of 1400+ AWS Resources that support tagging.
 
 Repository: https://github.com/FogSecurity/aws-iam-tagging
-
-### Finders Keypers (AWS KMS Key Usage Finder)
-
-This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
-
-Read more in our blog post here: https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws \
-Repository: https://github.com/FogSecurity/finders-keypers
 
 ### IAM References for AWS Data Perimeters
 
