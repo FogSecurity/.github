@@ -6,15 +6,16 @@ Welcome to Fog Security, where we're working to bring clarity to cloud encryptio
 - Fog Security Technical Blog: https://www.fogsecurity.io/blog/
 - Contact: info@fogsecurity.io
 
-Check out our resources:
+Resources:
 
 - [Finders Keypers (AWS KMS Key Usage Finder)](#finders-keypers)
 - [AWS Default Encryption Tracker](#aws-default-encryption-tracker)
-- [AWS IAM Tagging](#aws-iam-tagging)
 - [IAM References for AWS Data Perimeters](#iam-references-for-aws-data-perimeters)
   - [Ransomware Prevention in AWS for S3 and KMS](#ransomware-prevention-in-aws-for-s3-and-kms)
   - [IAM Actions to update encryption for existing AWS resources](#iam-actions-to-update-encryption-for-existing-aws-resources)
   - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
+- [AWS IAM Tagging](#aws-iam-tagging)
+
 
 
 ### Finders Keypers
