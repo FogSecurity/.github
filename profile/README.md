@@ -2,17 +2,21 @@
 
 Welcome to Fog Security, where we're working to bring clarity to cloud encryption and build better data perimeters.
 
-Check out our resources:
-
 - Fog Security: https://www.fogsecurity.io
 - Fog Security Technical Blog: https://www.fogsecurity.io/blog/
 - Contact: info@fogsecurity.io
+
+Check out our resources:
+
+- [Finders Keypers (AWS KMS Key Usage Finder)](#finders-keypers)
+- [AWS Default Encryption Tracker](#aws-default-encryption-tracker)
+
 
 ## Encryption and Data Perimeters in AWS Tooling
 
 We've created the following resources to help with understanding encryption and improving cloud security by building data perimeters.
 
-### Finders Keypers (AWS KMS Key Usage Finder)
+### Finders Keypers
 
 This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
 
@@ -39,7 +43,7 @@ Repository: https://github.com/FogSecurity/aws-iam-tagging
 
 This repository contains multiple IAM references including:
 
-#### Resources to Prevent Ransomware in Amazon S3 and KMS
+#### Ransomware Prevention in AWS
 These reference policies (including SCPs, RCPs, Bucket Policies, and more) help with preventing ransomware in Amazon S3 and KMS.  These include policies to prevent against data access, data deletion, and data corruption (such as encryption with SSE-C, customer-provided encryption)
 
 #### Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS
