@@ -10,11 +10,12 @@ Check out our resources:
 
 - [Finders Keypers (AWS KMS Key Usage Finder)](#finders-keypers)
 - [AWS Default Encryption Tracker](#aws-default-encryption-tracker)
+- [AWS IAM Tagging](#aws-iam-tagging)
+- [IAM References for AWS Data Perimeters](#iam-references-for-aws-data-perimeters)
+  - [Ransomware Prevention in AWS for S3 and KMS](#ransomware-prevention-in-aws-for-s3-and-kms)
+  - [IAM Actions to update encryption for existing AWS resources](#iam-actions-to-update-encryption-for-existing-aws-resources)
+  - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
 
-
-## Encryption and Data Perimeters in AWS Tooling
-
-We've created the following resources to help with understanding encryption and improving cloud security by building data perimeters.
 
 ### Finders Keypers
 
@@ -43,11 +44,11 @@ Repository: https://github.com/FogSecurity/aws-iam-tagging
 
 This repository contains multiple IAM references including:
 
-#### Ransomware Prevention in AWS
+#### Ransomware Prevention in AWS for S3 and KMS
 These reference policies (including SCPs, RCPs, Bucket Policies, and more) help with preventing ransomware in Amazon S3 and KMS.  These include policies to prevent against data access, data deletion, and data corruption (such as encryption with SSE-C, customer-provided encryption)
 
-#### Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS
-These reference policies help with creating data perimeters and improving cloud security within your AWS Organization at scale.  These policies protect resources and can also limit potential actions taken by IAM principals within your AWS Organization and AWS accounts within.
+#### Organizational RCPs and SCPs
+These reference Resource Control Policies (RCPs) and Service Control Policies (SCPs) help with creating data perimeters and improving cloud security within your AWS Organization at scale.  These policies protect resources and can also limit potential actions taken by IAM principals within your AWS Organization and AWS accounts within.
   
 #### IAM Actions to update encryption for existing AWS resources
 This is helpful to help prevent against ransomware, as a cloud ransomware technique is to hold data hostage by changing encryption keys.  This also aids in teams who need to update or manage encryption for existing AWS resources.  This repository details the IAM actions required to update encryption for cloud resources that support encryption update and details which cloud resources do not support updating in place and thus need to be recreated.
