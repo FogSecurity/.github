@@ -1,6 +1,6 @@
 # Fog Security
 
-Welcome to Fog Security, where we're working to bring clarity to cloud encryption and build better data perimeters.
+Welcome to Fog Security, where we're working to prevent ransomware, bring clarity to cloud encryption, and build better data perimeters.
 
 - Fog Security: https://www.fogsecurity.io
 - Fog Security Technical Blog: https://www.fogsecurity.io/blog/
