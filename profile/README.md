@@ -15,6 +15,7 @@ Resources:
   - [IAM Actions to update encryption for existing AWS resources](#iam-actions-to-update-encryption-for-existing-aws-resources)
   - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
 - [AWS IAM Tagging](#aws-iam-tagging)
+- [AWS Managed Keys Tracker](#AWS-Managed-Keys-Tracker)
 
 
 
