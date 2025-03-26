@@ -8,6 +8,7 @@ Welcome to Fog Security, where we're working to prevent ransomware, bring clarit
 
 Resources:
 
+- [YES3 Scanner (S3 Access and Ransomware Configuration Scanner)](#yes3-scanner)
 - [Finders Keypers (AWS KMS Key Usage Finder)](#finders-keypers)
 - [AWS Default Encryption Tracker](#aws-default-encryption-tracker)
 - [IAM References for AWS Data Perimeters](#iam-references-for-aws-data-perimeters)
@@ -19,9 +20,17 @@ Resources:
 
 
 
+### YES3 Scanner
+
+YES3 Scanner is an open source CLI python tool to scan your AWS Account's S3 configuration.  This looks at both account and bucket level settings to check for potentially public access, ransomware protection configuration, and more settings such as bucket encryption.  
+
+Blog post: https://www.fogsecurity.io/blog/yes3-amazon-s3 \
+Repository: https://github.com/FogSecurity/yes3-scanner
+
+
 ### Finders Keypers
 
-This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks service resources via boto3 API calls to better understand current usage of KMS keys for encryption.
+This open source CLI python tool helps determine blast radius and usage of AWS KMS Keys.  Currently, this is difficult to do and requires custom tooling or incomplete and indirect searches through CloudTrail and IAM references in KMS key policies and KMS key grants.  Finders Keypers is a tool built that checks via direct KMS Key to service resource analysis for usage of KMS keys for encryption.
 
 Read more in our blog post here: https://www.fogsecurity.io/blog/introducing-finders-keypers-a-tool-to-discover-usage-and-blast-radius-of-encryption-keys-in-aws \
 Repository: https://github.com/FogSecurity/finders-keypers
