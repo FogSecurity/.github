@@ -41,7 +41,7 @@ Repository: https://github.com/FogSecurity/finders-keypers
 This repository tracks default encryption settings across AWS resources.  In our research of 50+ resources across 40+ AWS services, resources were found to either be unencrypted, default encrypted with AWS owned keys, or default encrypted with AWS managed keys.  
 
 Read more in our blog post here: https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default \
-Repository: https://github.com/FogSecurity/aws-default-encryption-tracker
+Repository: https://github.com/FogSecurity/aws-encryption-tracker
 
 ### AWS IAM Tagging
 
