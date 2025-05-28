@@ -15,7 +15,7 @@ Resources:
   - [Ransomware Prevention in AWS for S3 and KMS](#ransomware-prevention-in-aws-for-s3-and-kms)
   - [IAM Actions to update encryption for existing AWS resources](#iam-actions-to-update-encryption-for-existing-aws-resources)
   - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
-- [AWS IAM Tagging](#aws-iam-tagging)
+- [AWS IAM Reference and Resources](#aws-iam-reference-and-resources)
 - [AWS Managed Keys Tracker](#AWS-Managed-Keys-Tracker)
 
 
@@ -43,13 +43,20 @@ This repository tracks default encryption settings across AWS resources.  In our
 Read more in our blog post here: https://www.fogsecurity.io/blog/are-my-aws-resources-encrypted-or-unencrypted-by-default \
 Repository: https://github.com/FogSecurity/aws-encryption-tracker
 
-### AWS IAM Tagging
+### AWS IAM Reference and Resources
 
-This repository contains listings of:
-* All 1000+ IAM Actions to tag resources in AWS
-* Listing of 1400+ AWS Resources that support tagging.
+This repository contains parsed IAM references and tagging information to help with writing policies, tagging compliance, and more.
 
-Repository: https://github.com/FogSecurity/aws-iam-tagging
+This includes:
+
+* Resources in AWS (ARN Formats)
+  - All ARN Formats for Resources in AWS
+  - Service Prefixes for AWS Services
+* Tagging
+  - All 1000+ IAM Actions to tag resources in AWS
+  - Listing of 1400+ AWS Resources that support tagging.
+
+Repository: https://github.com/FogSecurity/aws-iam
 
 ### IAM References for AWS Data Perimeters
 
