@@ -62,6 +62,9 @@ Repository: https://github.com/FogSecurity/aws-iam
 
 This repository contains multiple IAM references including:
 
+### Programmatic Reference for AWS IAM Actions and Insights
+Resources in this folder include downloads of the AWS Programmatic Reference for IAM Actions (which helps reduce scraping indirect Service Authorization Reference (SAR) Pages and other indirect sources).  This includes historical information, actions with multiple categories (Write, Tagging, Permissions Management, List), differences between the SAR pages and the programmatic reference, actions that do not support resource scoping, and more.
+
 #### Ransomware Prevention in AWS for S3 and KMS
 These reference policies (including SCPs, RCPs, Bucket Policies, and more) help with preventing ransomware in Amazon S3 and KMS.  These include policies to prevent against data access, data deletion, and data corruption (such as encryption with SSE-C, customer-provided encryption)
 
