@@ -17,6 +17,7 @@ Resources:
   - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
 - [AWS IAM Reference and Resources](#aws-iam-reference-and-resources)
 - [AWS Managed Keys Tracker](#AWS-Managed-Keys-Tracker)
+- [IAM Size: A AWS IAM Size and Limit Checker](#iam-size)
 
 
 
@@ -80,6 +81,13 @@ Read more in our blog posts here:
 * https://www.fogsecurity.io/blog/the-complete-guide-to-ransomware-protection-in-s3-and-kms
 
 Repository: [https://github.com/FogSecurity/aws-data-perimeter-iam](https://github.com/FogSecurity/aws-data-perimeter-iam)
+
+
+### IAM Size
+
+This tool checks IAM resources for hard to find limits such as managed policy character size limits.  Hitting character limits may result in suboptimal security practices such as using wildcards or removing proper scoping in IAM resources.  This helps by reporting resources that are close to the limit so teams have adequate time to fix their IAM resources.
+
+Repository: [https://github.com/FogSecurity/iam-size](https://github.com/FogSecurity/iam-size)
 
 ### AWS Managed Keys Tracker
 
