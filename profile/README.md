@@ -17,7 +17,7 @@ Resources:
   - [Organizational Resource Control Policies (RCPs) and Service Control Policies (SCPs) for AWS](#organizational-RCPs-and-SCPs)
 - [AWS IAM Reference and Resources](#aws-iam-reference-and-resources)
 - [AWS Managed Keys Tracker](#AWS-Managed-Keys-Tracker)
-- [IAM Size: A AWS IAM Size and Limit Checker](#iam-size)
+- [AWS Size: A AWS IAM Size and Limit Checker](#aws-size)
 
 
 
