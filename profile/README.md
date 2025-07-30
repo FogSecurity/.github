@@ -83,11 +83,11 @@ Read more in our blog posts here:
 Repository: [https://github.com/FogSecurity/aws-data-perimeter-iam](https://github.com/FogSecurity/aws-data-perimeter-iam)
 
 
-### IAM Size
+### AWS Size
 
-This tool checks IAM resources for hard to find limits such as managed policy character size limits.  Hitting character limits may result in suboptimal security practices such as using wildcards or removing proper scoping in IAM resources.  This helps by reporting resources that are close to the limit so teams have adequate time to fix their IAM resources.
+This tool checks AWS resources for hard to manage and monitor limits such as managed policy character size limits.  Hitting character limits may result in suboptimal security practices such as using wildcards or removing proper scoping in IAM resources.  This helps by reporting resources that are close to the limit so teams have adequate time to fix their IAM resources.
 
-Repository: [https://github.com/FogSecurity/iam-size](https://github.com/FogSecurity/iam-size)
+Repository: [https://github.com/FogSecurity/aws-size](https://github.com/FogSecurity/aws-size)
 
 ### AWS Managed Keys Tracker
 
